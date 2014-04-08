@@ -1,5 +1,5 @@
 class coa-mysql::install {
-	package { 'mysqld':
+	package { 'mysql-server':
 		ensure => present,
 	}
 }
